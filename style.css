@@ -1,29 +1,74 @@
 * {
      margin: auto;
-     margin-top: 3%;
+     margin-top: 2%;
      user-select: none;
      background-color: #3f0071;
+     padding-bottom: 0%;
 }
 div {
      font-size: 3rem;
 }
 h1 {
-     font-size: 5rem;
-     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+     font-size: 7rem;
+     font-family: "Tangerine", serif;
      background-color: #fff6bf;
      color: #453c67;
+     text-shadow: 4px 4px 4px #fb2576;
+}
+a {
+     color: #3f0071;
+     font-family: "Ubuntu", serif;
+     /* margin: 10px 20px; */
+     text-decoration: none;
+     font-size: 1rem;
+}
+
+a:hover {
+     color: #eaf6f6;
+}
+.main {
+     margin-top: 0px;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     gap: 2%;
 }
 
 .block {
      display: grid;
+
+     margin-left: 12rem;
+     margin-top: 7rem;
+     margin-right: 7rem;
      background-color: #fff6bf;
      padding: 2%;
-     width: 500px;
-     margin-top: 10rem;
+     width: 900px;
+
      border-radius: 3vw;
 }
-
+.vl {
+     border-left: 2px solid rgb(239, 239, 239);
+     height: 520px;
+     /* transform: rotate(15deg); */
+     border-radius: 100px;
+}
+.write {
+     margin-right: 4rem;
+     /* font-family: "Satisfy", serif; */
+     font-family: "Shadows Into Light", cursive;
+     font-size: 2rem;
+     /* font-family: "Tangerine", serif; */
+     /* font-family: "Sacramento", cursive; */
+     color: white;
+     width: 50vw;
+     height: 30vw;
+}
+.name {
+     font-family: "Sacramento", cursive;
+     font-size: 4rem;
+     text-shadow: 4px 4px 4px #aaa;
+     text-align: right;
+}
 .circle {
      display: flex;
      flex-direction: row;
@@ -67,4 +112,23 @@ h1 {
 
 .op:active {
      opacity: 0.35;
+}
+.bottom-container {
+     text-align: center;
+     background-color: #66bfbf;
+     margin-top: 3 rem;
+     padding-top: 0.5rem;
+     margin-bottom: 0rem;
+     /* align-self: stretch; */
+     /* padding: 3rem; */
+}
+.footer-link {
+     background-color: #66bfbf;
+}
+.copyright {
+     color: white;
+     font-size: 0.75rem;
+     background-color: #66bfbf;
+     padding-bottom: 2rem;
+     /* margin: 40px auto; */
 }
